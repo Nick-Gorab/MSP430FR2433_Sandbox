@@ -36,8 +36,10 @@
  int timerA1Init (void)
  {
      TA1CCTL0 = CCIE;
-     TA1CCR0 = 1000;
+     TA1CCR0 = 10000;
      TA1CTL = TASSEL_2 | MC_1; // Sources SMCLK in continuous mode
+
+     return 0;
  }
  
  

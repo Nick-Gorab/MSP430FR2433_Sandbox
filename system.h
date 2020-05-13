@@ -13,5 +13,6 @@
 
 #include "led.h"
 #include "Timing.h"
+#include "Scheduler.h"
 
 #endif /* SYSTEM_H_ */
